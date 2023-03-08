@@ -1,9 +1,18 @@
+
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100%;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient( 103.3deg,  rgba(252,225,208,1) 30%, rgba(255,173,214,1) 55.7%, rgba(162,186,245,1) 81.8% );
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden !important;
+    background-repeat: no-repeat;
+    color: black;
 }
 
 a {
@@ -12,12 +21,8 @@ a {
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-@media (prefers-color-scheme: dark) {
- 
-  body {
-    color: white;
-    background: black;
-  }
-}
+

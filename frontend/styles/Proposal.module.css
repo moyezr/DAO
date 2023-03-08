@@ -1,0 +1,18 @@
+.proposal {
+    text-align: center;
+    padding: 1rem 5rem;
+}
+
+.heading {
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+}
+
+.proposalsContainer {
+    margin: 2rem auto;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    place-content: center;
+}

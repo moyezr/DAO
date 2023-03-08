@@ -1,84 +1,125 @@
-.main {
-  min-height: 90vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.homeContainer {
+  min-width: 100vw;
+  height: fit-content;
+  display: flex;  
+  justify-content: space-between;
   align-items: center;
-  font-family: "Courier New", Courier, monospace;
+  padding: 0 5rem;
 }
 
-.footer {
+.left {
   display: flex;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
 }
 
-.image {
-  width: 70%;
-  height: 50%;
-  margin-left: 20%;
+.heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
 }
 
-.title {
-  font-size: 2rem;
-  margin: 2rem 0;
-}
-
-.description {
-  line-height: 1;
-  margin: 2rem 0;
+.subHeading {
+  font-weight: 200;
   font-size: 1.2rem;
 }
 
-.button {
-  border-radius: 4px;
-  background-color: blue;
-  border: none;
-  color: #ffffff;
-  font-size: 15px;
-  padding: 10px;
-  width: 200px;
+.homeBtn {
   cursor: pointer;
-  margin-right: 2%;
-  margin-bottom: 2%;
+  font-size: 1.2rem;
+  box-shadow: 4px 4px 10px black;
+  background: transparent;
+  border: 2px solid white;
+  padding: 5px 12px;
+  backdrop-filter: blur(20px);
+  border-radius: 12px;
+  margin: 1rem 2rem;
 }
 
-.button2 {
-  border-radius: 4px;
-  background-color: indigo;
-  border: none;
-  color: #ffffff;
-  font-size: 15px;
-  padding: 10px;
-  cursor: pointer;
-  margin-right: 2%;
-  margin-top: 1rem;
+.btnContainer {
+  display:  flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.proposalCard {
-  width: fit-content;
-  margin-top: 0.25rem;
-  border: black 2px solid;
-  flex: 1;
+.statsContainer {
+  font-size: 18px;
+  border: 2px solid white;
+  padding: 20px 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  box-shadow: 4px 4px 20px rgb(0, 0, 0, 0.6);
+  margin-bottom: 3rem;
+}
+
+.stats {
+  padding: 0;
+  margin: 3px 0;
+}
+
+.contribution {
+  color: rgba(0, 0, 0, 0.778);
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 14px;
+}
+
+.contribution span{
+  display: block;
+  margin-top: 4px;
+}
+
+
+.createProposalContainer {
+  display: flex;
+  text-align: center;
   flex-direction: column;
+  justify-content: space-evenly;
+  margin: 1rem auto;
+  padding: 5px 10px;
+  width: fit-content;
+  border: 1px soldi white;
+  box-shadow: 4px 4px 10px grey;
+  border-radius: 12px;
 }
 
-.container {
+.closeBtnContainer {
+  text-align: right;
+}
+.closeBtnContainer span {
+  cursor: pointer;
+  background-color: black;
+  font-size: 12px;
+  color: white;
+  padding:4px 7px;
+  border-radius: 100%;
+}
+
+.input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 0rem 4px 2px;
+  outline: none;
+  font-size: 1rem;
+  width: 10%;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  display: none;
+}
+
+.right {
+  width: fit-content;
+  height: 100%;
   margin-top: 2rem;
+  vertical-align: center;
 }
 
-.flex {
-  flex: 1;
-  justify-content: space-between;
-}
-
-@media (max-width: 1000px) {
-  .main {
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.homeImg {
+  width: 300px;
+  vertical-align: center;
+  height: auto;
 }

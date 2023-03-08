@@ -1,0 +1,60 @@
+.card {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0,0.6);
+    justify-content: space-around;
+    padding: 0 6px;
+    height: 250px;
+    width: 300px;
+}
+
+.statusContainer {
+    border-top: 2px dashed black;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.statusMsg {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.voteBtn:first-child {
+  background-color: rgb(8, 207, 8);
+}
+.voteBtn:first-child:hover {
+    background-color: rgb(48, 255, 48);
+  }
+
+.voteBtn:last-child {
+    background-color: rgb(223, 0, 0);
+  }
+  .voteBtn:last-child:hover {
+    background-color: rgb(255, 19, 19);
+  }
+
+.voteBtn {
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 12px;
+}
+
+.executeBtn {
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 4px 4px 10px black;
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 15px;
+    backdrop-filter: blur(20px);
+    border-radius: 12px;
+  }
